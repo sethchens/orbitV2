@@ -81,8 +81,8 @@ public:
        
        if (pShip && !pShip->isDead())
        {
-//          pShip->input(pUI);
-//          pShip->move(10.0);
+          pShip->input(pUI);
+          pShip->move(1.0);
        }
 
         // Update star phases for twinkling

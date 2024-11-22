@@ -19,7 +19,7 @@
 class TestSatellite;
 class Interface;
 class TestSatellite;
-class FakeShip;
+class TestShip;
 
 
 /*********************************************
@@ -30,7 +30,7 @@ class Satellite
 {
 public:
     friend TestSatellite;
-    friend FakeShip;
+    friend TestShip;
 
 
     // constructors
