@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D281C7A2CEE43F7005407D5 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D281C782CEE43F7005407D5 /* OpenGL.framework */; };
+		5D281C7B2CEE43F7005407D5 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D281C792CEE43F7005407D5 /* GLUT.framework */; };
+		5D281C7E2CEE47F3005407D5 /* Ship.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D281C7D2CEE47F0005407D5 /* Ship.cpp */; };
+		5D281C812CEE8973005407D5 /* TestShip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D281C802CEE8971005407D5 /* TestShip.cpp */; };
+		5D7C3EC92CF0F53A006FEFD3 /* Sputnik.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C3EB22CF0F53A006FEFD3 /* Sputnik.cpp */; };
+		5D7C3ECA2CF0F53A006FEFD3 /* angle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C3EA52CF0F53A006FEFD3 /* angle.cpp */; };
+		5D7C3ECB2CF0F53A006FEFD3 /* GPS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C3EA92CF0F53A006FEFD3 /* GPS.cpp */; };
+		5D7C3ECC2CF0F53A006FEFD3 /* position.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C3EAD2CF0F53A006FEFD3 /* position.cpp */; };
+		5D7C3ECD2CF0F53A006FEFD3 /* Simulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C3EB02CF0F53A006FEFD3 /* Simulator.cpp */; };
+		5D7C3ECE2CF0F53A006FEFD3 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C3EB62CF0F53A006FEFD3 /* test.cpp */; };
+		5D7C3ECF2CF0F53A006FEFD3 /* velocity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C3EC82CF0F53A006FEFD3 /* velocity.cpp */; };
+		5D7C3ED02CF0F53A006FEFD3 /* TestSatellite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C3EBE2CF0F53A006FEFD3 /* TestSatellite.cpp */; };
+		5D7C3ED12CF0F53A006FEFD3 /* Satellite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C3EAF2CF0F53A006FEFD3 /* Satellite.cpp */; };
+		5D7C3ED22CF0F53A006FEFD3 /* Hubble.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C3EAB2CF0F53A006FEFD3 /* Hubble.cpp */; };
+		5D7C3ED32CF0F53A006FEFD3 /* uiInteract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C3EC52CF0F53A006FEFD3 /* uiInteract.cpp */; };
+		5D7C3ED42CF0F53A006FEFD3 /* Starlink.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C3EB42CF0F53A006FEFD3 /* Starlink.cpp */; };
+		5D7C3ED52CF0F53A006FEFD3 /* CrewDragon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C3EA72CF0F53A006FEFD3 /* CrewDragon.cpp */; };
+		5D7C3ED62CF0F53A006FEFD3 /* acceleration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C3EA32CF0F53A006FEFD3 /* acceleration.cpp */; };
+		5D7C3ED72CF0F53A006FEFD3 /* uiDraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C3EC32CF0F53A006FEFD3 /* uiDraw.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5D281C352CEE4330005407D5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5D281C372CEE4330005407D5 /* OrbitV2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OrbitV2; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D281C782CEE43F7005407D5 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		5D281C792CEE43F7005407D5 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		5D281C7C2CEE47EA005407D5 /* Ship.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ship.h; sourceTree = "<group>"; };
+		5D281C7D2CEE47F0005407D5 /* Ship.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ship.cpp; sourceTree = "<group>"; };
+		5D281C7F2CEE896A005407D5 /* TestShip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestShip.h; sourceTree = "<group>"; };
+		5D281C802CEE8971005407D5 /* TestShip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestShip.cpp; sourceTree = "<group>"; };
+		5D7C3EA22CF0F53A006FEFD3 /* acceleration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = acceleration.h; sourceTree = "<group>"; };
+		5D7C3EA32CF0F53A006FEFD3 /* acceleration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = acceleration.cpp; sourceTree = "<group>"; };
+		5D7C3EA42CF0F53A006FEFD3 /* angle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = angle.h; sourceTree = "<group>"; };
+		5D7C3EA52CF0F53A006FEFD3 /* angle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = angle.cpp; sourceTree = "<group>"; };
+		5D7C3EA62CF0F53A006FEFD3 /* CrewDragon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrewDragon.h; sourceTree = "<group>"; };
+		5D7C3EA72CF0F53A006FEFD3 /* CrewDragon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CrewDragon.cpp; sourceTree = "<group>"; };
+		5D7C3EA82CF0F53A006FEFD3 /* GPS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPS.h; sourceTree = "<group>"; };
+		5D7C3EA92CF0F53A006FEFD3 /* GPS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GPS.cpp; sourceTree = "<group>"; };
+		5D7C3EAA2CF0F53A006FEFD3 /* Hubble.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hubble.h; sourceTree = "<group>"; };
+		5D7C3EAB2CF0F53A006FEFD3 /* Hubble.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Hubble.cpp; sourceTree = "<group>"; };
+		5D7C3EAC2CF0F53A006FEFD3 /* position.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = position.h; sourceTree = "<group>"; };
+		5D7C3EAD2CF0F53A006FEFD3 /* position.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = position.cpp; sourceTree = "<group>"; };
+		5D7C3EAE2CF0F53A006FEFD3 /* Satellite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Satellite.h; sourceTree = "<group>"; };
+		5D7C3EAF2CF0F53A006FEFD3 /* Satellite.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Satellite.cpp; sourceTree = "<group>"; };
+		5D7C3EB02CF0F53A006FEFD3 /* Simulator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Simulator.cpp; sourceTree = "<group>"; };
+		5D7C3EB12CF0F53A006FEFD3 /* Sputnik.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sputnik.h; sourceTree = "<group>"; };
+		5D7C3EB22CF0F53A006FEFD3 /* Sputnik.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sputnik.cpp; sourceTree = "<group>"; };
+		5D7C3EB32CF0F53A006FEFD3 /* Starlink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Starlink.h; sourceTree = "<group>"; };
+		5D7C3EB42CF0F53A006FEFD3 /* Starlink.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Starlink.cpp; sourceTree = "<group>"; };
+		5D7C3EB52CF0F53A006FEFD3 /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		5D7C3EB62CF0F53A006FEFD3 /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		5D7C3EB72CF0F53A006FEFD3 /* testAcceleration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testAcceleration.h; sourceTree = "<group>"; };
+		5D7C3EB82CF0F53A006FEFD3 /* testAngle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testAngle.h; sourceTree = "<group>"; };
+		5D7C3EB92CF0F53A006FEFD3 /* TestCrewDragon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCrewDragon.h; sourceTree = "<group>"; };
+		5D7C3EBA2CF0F53A006FEFD3 /* TestGPS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestGPS.h; sourceTree = "<group>"; };
+		5D7C3EBB2CF0F53A006FEFD3 /* TestHubble.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestHubble.h; sourceTree = "<group>"; };
+		5D7C3EBC2CF0F53A006FEFD3 /* testPosition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testPosition.h; sourceTree = "<group>"; };
+		5D7C3EBD2CF0F53A006FEFD3 /* TestSatellite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestSatellite.h; sourceTree = "<group>"; };
+		5D7C3EBE2CF0F53A006FEFD3 /* TestSatellite.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestSatellite.cpp; sourceTree = "<group>"; };
+		5D7C3EBF2CF0F53A006FEFD3 /* TestSputnik.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestSputnik.h; sourceTree = "<group>"; };
+		5D7C3EC02CF0F53A006FEFD3 /* TestStarlink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestStarlink.h; sourceTree = "<group>"; };
+		5D7C3EC12CF0F53A006FEFD3 /* testVelocity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testVelocity.h; sourceTree = "<group>"; };
+		5D7C3EC22CF0F53A006FEFD3 /* uiDraw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = uiDraw.h; sourceTree = "<group>"; };
+		5D7C3EC32CF0F53A006FEFD3 /* uiDraw.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = uiDraw.cpp; sourceTree = "<group>"; };
+		5D7C3EC42CF0F53A006FEFD3 /* uiInteract.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = uiInteract.h; sourceTree = "<group>"; };
+		5D7C3EC52CF0F53A006FEFD3 /* uiInteract.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = uiInteract.cpp; sourceTree = "<group>"; };
+		5D7C3EC62CF0F53A006FEFD3 /* unitTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = unitTest.h; sourceTree = "<group>"; };
+		5D7C3EC72CF0F53A006FEFD3 /* velocity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = velocity.h; sourceTree = "<group>"; };
+		5D7C3EC82CF0F53A006FEFD3 /* velocity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = velocity.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D281C342CEE4330005407D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D281C7A2CEE43F7005407D5 /* OpenGL.framework in Frameworks */,
+				5D281C7B2CEE43F7005407D5 /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D281C2E2CEE4330005407D5 = {
+			isa = PBXGroup;
+			children = (
+				5D7C3EA22CF0F53A006FEFD3 /* acceleration.h */,
+				5D7C3EA32CF0F53A006FEFD3 /* acceleration.cpp */,
+				5D7C3EA42CF0F53A006FEFD3 /* angle.h */,
+				5D7C3EA52CF0F53A006FEFD3 /* angle.cpp */,
+				5D7C3EA62CF0F53A006FEFD3 /* CrewDragon.h */,
+				5D7C3EA72CF0F53A006FEFD3 /* CrewDragon.cpp */,
+				5D7C3EA82CF0F53A006FEFD3 /* GPS.h */,
+				5D7C3EA92CF0F53A006FEFD3 /* GPS.cpp */,
+				5D7C3EAA2CF0F53A006FEFD3 /* Hubble.h */,
+				5D7C3EAB2CF0F53A006FEFD3 /* Hubble.cpp */,
+				5D7C3EAC2CF0F53A006FEFD3 /* position.h */,
+				5D7C3EAD2CF0F53A006FEFD3 /* position.cpp */,
+				5D7C3EAE2CF0F53A006FEFD3 /* Satellite.h */,
+				5D7C3EAF2CF0F53A006FEFD3 /* Satellite.cpp */,
+				5D7C3EB02CF0F53A006FEFD3 /* Simulator.cpp */,
+				5D7C3EB12CF0F53A006FEFD3 /* Sputnik.h */,
+				5D7C3EB22CF0F53A006FEFD3 /* Sputnik.cpp */,
+				5D7C3EB32CF0F53A006FEFD3 /* Starlink.h */,
+				5D7C3EB42CF0F53A006FEFD3 /* Starlink.cpp */,
+				5D7C3EB52CF0F53A006FEFD3 /* test.h */,
+				5D7C3EB62CF0F53A006FEFD3 /* test.cpp */,
+				5D7C3EB72CF0F53A006FEFD3 /* testAcceleration.h */,
+				5D7C3EB82CF0F53A006FEFD3 /* testAngle.h */,
+				5D7C3EB92CF0F53A006FEFD3 /* TestCrewDragon.h */,
+				5D7C3EBA2CF0F53A006FEFD3 /* TestGPS.h */,
+				5D7C3EBB2CF0F53A006FEFD3 /* TestHubble.h */,
+				5D7C3EBC2CF0F53A006FEFD3 /* testPosition.h */,
+				5D7C3EBD2CF0F53A006FEFD3 /* TestSatellite.h */,
+				5D7C3EBE2CF0F53A006FEFD3 /* TestSatellite.cpp */,
+				5D7C3EBF2CF0F53A006FEFD3 /* TestSputnik.h */,
+				5D7C3EC02CF0F53A006FEFD3 /* TestStarlink.h */,
+				5D7C3EC12CF0F53A006FEFD3 /* testVelocity.h */,
+				5D7C3EC22CF0F53A006FEFD3 /* uiDraw.h */,
+				5D7C3EC32CF0F53A006FEFD3 /* uiDraw.cpp */,
+				5D7C3EC42CF0F53A006FEFD3 /* uiInteract.h */,
+				5D7C3EC52CF0F53A006FEFD3 /* uiInteract.cpp */,
+				5D7C3EC62CF0F53A006FEFD3 /* unitTest.h */,
+				5D7C3EC72CF0F53A006FEFD3 /* velocity.h */,
+				5D7C3EC82CF0F53A006FEFD3 /* velocity.cpp */,
+				5D281C7F2CEE896A005407D5 /* TestShip.h */,
+				5D281C802CEE8971005407D5 /* TestShip.cpp */,
+				5D281C7C2CEE47EA005407D5 /* Ship.h */,
+				5D281C7D2CEE47F0005407D5 /* Ship.cpp */,
+				5D281C772CEE43F7005407D5 /* Frameworks */,
+				5D281C382CEE4330005407D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D281C382CEE4330005407D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D281C372CEE4330005407D5 /* OrbitV2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D281C772CEE43F7005407D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D281C792CEE43F7005407D5 /* GLUT.framework */,
+				5D281C782CEE43F7005407D5 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D281C362CEE4330005407D5 /* OrbitV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D281C3E2CEE4330005407D5 /* Build configuration list for PBXNativeTarget "OrbitV2" */;
+			buildPhases = (
+				5D281C332CEE4330005407D5 /* Sources */,
+				5D281C342CEE4330005407D5 /* Frameworks */,
+				5D281C352CEE4330005407D5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrbitV2;
+			packageProductDependencies = (
+			);
+			productName = OrbitV2;
+			productReference = 5D281C372CEE4330005407D5 /* OrbitV2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D281C2F2CEE4330005407D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					5D281C362CEE4330005407D5 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 5D281C322CEE4330005407D5 /* Build configuration list for PBXProject "OrbitV2" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D281C2E2CEE4330005407D5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5D281C382CEE4330005407D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D281C362CEE4330005407D5 /* OrbitV2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D281C332CEE4330005407D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D7C3EC92CF0F53A006FEFD3 /* Sputnik.cpp in Sources */,
+				5D7C3ECA2CF0F53A006FEFD3 /* angle.cpp in Sources */,
+				5D7C3ECB2CF0F53A006FEFD3 /* GPS.cpp in Sources */,
+				5D7C3ECC2CF0F53A006FEFD3 /* position.cpp in Sources */,
+				5D7C3ECD2CF0F53A006FEFD3 /* Simulator.cpp in Sources */,
+				5D7C3ECE2CF0F53A006FEFD3 /* test.cpp in Sources */,
+				5D7C3ECF2CF0F53A006FEFD3 /* velocity.cpp in Sources */,
+				5D7C3ED02CF0F53A006FEFD3 /* TestSatellite.cpp in Sources */,
+				5D7C3ED12CF0F53A006FEFD3 /* Satellite.cpp in Sources */,
+				5D7C3ED22CF0F53A006FEFD3 /* Hubble.cpp in Sources */,
+				5D7C3ED32CF0F53A006FEFD3 /* uiInteract.cpp in Sources */,
+				5D7C3ED42CF0F53A006FEFD3 /* Starlink.cpp in Sources */,
+				5D7C3ED52CF0F53A006FEFD3 /* CrewDragon.cpp in Sources */,
+				5D7C3ED62CF0F53A006FEFD3 /* acceleration.cpp in Sources */,
+				5D7C3ED72CF0F53A006FEFD3 /* uiDraw.cpp in Sources */,
+				5D281C812CEE8973005407D5 /* TestShip.cpp in Sources */,
+				5D281C7E2CEE47F3005407D5 /* Ship.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5D281C3C2CEE4330005407D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5D281C3D2CEE4330005407D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5D281C3F2CEE4330005407D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D281C402CEE4330005407D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D281C322CEE4330005407D5 /* Build configuration list for PBXProject "OrbitV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D281C3C2CEE4330005407D5 /* Debug */,
+				5D281C3D2CEE4330005407D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D281C3E2CEE4330005407D5 /* Build configuration list for PBXNativeTarget "OrbitV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D281C3F2CEE4330005407D5 /* Debug */,
+				5D281C402CEE4330005407D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D281C2F2CEE4330005407D5 /* Project object */;
+}
