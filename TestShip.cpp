@@ -1,9 +1,4 @@
-//
-//  TestShip.cpp
-//  OrbitV2
-//
-//  Created by Seth on 11/20/24.
-//
+
 
 #include "TestShip.h"
 
