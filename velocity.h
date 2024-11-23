@@ -2,7 +2,7 @@
  * Header File:
  *    VELOCITY
  * Author:
- *    <your name here>
+ *    Chris Mijango & Seth Chen
  * Summary:
  *    Everything we need to know about speed
  ************************************************************************/

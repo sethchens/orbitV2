@@ -1,3 +1,14 @@
+/***********************************************************************
+ * Header File:
+ *    Hubble
+ * Author:
+ *    Chris Mijango and Seth Chen
+ * Summary:
+ *    Hubble class
+ ************************************************************************/
+
+
+
 #pragma once
 #include "Satellite.h"
 #include "velocity.h"

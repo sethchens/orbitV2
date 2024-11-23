@@ -2,7 +2,7 @@
  * Header File:
  *    TEST VELOCITY
  * Author:
- *    <your name here>
+ *    Chris Mijango & Seth Chen
  * Summary:
  *    Unit tests for the Velocity class.
  ************************************************************************/

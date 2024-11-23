@@ -1,3 +1,14 @@
+/***********************************************************************
+ * Header File:
+ *    GPS
+ * Author:
+ *    Chris Mijango and Seth Chen
+ * Summary:
+ *    GPS class
+ ************************************************************************/
+
+
+
 #pragma once
 #include "Satellite.h"
 #include "velocity.h"
@@ -181,9 +192,9 @@ public:
     GPS(const Position& pos, const Velocity& vel) :
         Satellite(0, 12.0, 0.001)
     {
-        this->pos = pos;
-        this->velocity = vel;
-        timeDilation = 48.0;
+       this->pos = pos;
+       this->velocity = vel;
+       timeDilation = 48.0;
     }
 
     GPS() : GPS(
@@ -224,7 +235,9 @@ public:
     virtual void draw(ogstream& gout) override
     {
         if (!isInvisible() && !isDead())
-            gout.drawGPS(pos, angle.getRadians());
+        {
+           gout.drawGPS(pos, angle.getRadians());
+        }
     }
 
 protected:

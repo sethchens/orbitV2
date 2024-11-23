@@ -2,7 +2,7 @@
  * Source File:
  *    ACCELERATION 
  * Author:
- *    <your name here>
+ *    Chris Mijango and Seth Chen
  * Summary:
  *    Everything we need to know about changing speed
  ************************************************************************/

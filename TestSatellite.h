@@ -2,7 +2,7 @@
  * Header File:
  *    TEST SATELLITE
  * Author:
- *    <your name here>
+ *    Chris Mijango & Seth Chen
  * Summary:
  *    A friend class for Satellite which contains the Satellite unit tests
  ************************************************************************/

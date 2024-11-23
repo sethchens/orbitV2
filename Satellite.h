@@ -2,7 +2,7 @@
  * Header File:
  *    SATELLITE
  * Author:
- *    <your name here>
+ *    Chris Mijango and Seth Chen
  * Summary:
  *    Base class for all satellites in orbit
  ************************************************************************/

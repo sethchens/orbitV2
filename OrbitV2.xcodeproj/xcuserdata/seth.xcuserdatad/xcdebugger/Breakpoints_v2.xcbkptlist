@@ -174,8 +174,8 @@
             filePath = "Simulator.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "145"
-            endingLineNumber = "145"
+            startingLineNumber = "190"
+            endingLineNumber = "190"
             landmarkName = "callBack(pUI, p)"
             landmarkType = "9">
          </BreakpointContent>
@@ -190,8 +190,8 @@
             filePath = "Simulator.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "148"
-            endingLineNumber = "148"
+            startingLineNumber = "193"
+            endingLineNumber = "193"
             landmarkName = "callBack(pUI, p)"
             landmarkType = "9">
          </BreakpointContent>
@@ -257,6 +257,22 @@
             startingLineNumber = "46"
             endingLineNumber = "46"
             landmarkName = "TestShip::move_oneSecond()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1FECB9F5-B2F1-4425-87D0-2FE9F2CDC392"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestShip.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
+            landmarkName = "TestShip::input_downOnce()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

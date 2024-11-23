@@ -1,3 +1,13 @@
+/***********************************************************************
+ * Header File:
+ *    TEST CREW DRAGON
+ * Author:
+ *    Chris Mijango & Seth Chen
+ * Summary:
+ *    All the unit tests for CrewDragon
+ ************************************************************************/
+
+
 #pragma once
 
 #include "crewDragon.h"

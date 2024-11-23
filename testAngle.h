@@ -2,7 +2,7 @@
  * Header File:
  *    TEST ANGLE
  * Author:
- *    <your name here>
+ *    Chris Mijango & Seth Chen
  * Summary:
  *    All the unit tests for ANGLE
  ************************************************************************/

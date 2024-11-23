@@ -2,7 +2,7 @@
  * Source File:
  *    SATELLITE
  * Author:
- *    <your name here>
+ *    Chris Mijango and Seth Chen
  * Summary:
  *    Implementation of the Satellite class
  ************************************************************************/

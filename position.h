@@ -2,7 +2,7 @@
  * Header File:
  *    POSITION
  * Author:
- *    <your name here>
+ *    Chris Mijango and Seth Chen
  * Summary:
  *    Everything we need to know about a location on the screen.
  ************************************************************************/

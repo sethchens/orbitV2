@@ -1,3 +1,13 @@
+/***********************************************************************
+ * Header File:
+ *    SPUTNIK
+ * Author:
+ *    Chris Mijango and Seth Chen
+ * Summary:
+ *    Sputnik class
+ ************************************************************************/
+
+
 #pragma once
 #include "satellite.h"
 #include "velocity.h"

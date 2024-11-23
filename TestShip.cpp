@@ -2,7 +2,7 @@
  * Source File:
  *    TEST SHIP
  * Author:
- *    <your name here>
+ *    Chris Mijango & Seth Chen
  * Summary:
  *    The test ship class
  ************************************************************************/

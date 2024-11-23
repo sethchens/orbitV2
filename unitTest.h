@@ -1,3 +1,13 @@
+/***********************************************************************
+ * Header File:
+ *    UNIT TEST
+ * Author:
+ *    Chris Mijango & Seth Chen
+ * Summary:
+ *    A unit test class that define all unit test functions we'll need
+ ************************************************************************/
+
+
 #pragma once
 
 #undef assertUnit

@@ -1,3 +1,13 @@
+/***********************************************************************
+ * Header File:
+ *    STARLINK
+ * Author:
+ *    Chris Mijango and Seth Chen
+ * Summary:
+ *    Starlink class
+ ************************************************************************/
+
+
 #pragma once
 #include "Satellite.h"
 #include "velocity.h"

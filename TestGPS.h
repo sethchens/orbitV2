@@ -1,4 +1,14 @@
-﻿#pragma once
+/***********************************************************************
+ * Header File:
+ *    TEST GPS
+ * Author:
+ *    Chris Mijango & Seth Chen
+ * Summary:
+ *    All the unit tests for GPS
+ ************************************************************************/
+
+
+#pragma once
 
 #include "gps.h"
 #include "unitTest.h"

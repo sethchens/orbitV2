@@ -1,3 +1,13 @@
+/***********************************************************************
+ * Header File:
+ *    Crew DRAGON
+ * Author:
+ *    Chris Mijango and Seth Chen
+ * Summary:
+ *    Crew dragon class
+ ************************************************************************/
+
+
 #pragma once
 #include "satellite.h"
 #include "velocity.h"

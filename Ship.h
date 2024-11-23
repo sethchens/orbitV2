@@ -2,7 +2,7 @@
  * Header File:
  *    SHIP
  * Author:
- *    <your name here>
+ *    Chris Mijango & Seth Chen
  * Summary:
  *    The ship class
  ************************************************************************/

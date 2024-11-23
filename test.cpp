@@ -1,3 +1,13 @@
+/***********************************************************************
+ * Source File:
+ *    TEST
+ * Author:
+ *    Chris Mijango and Seth Chen
+ * Summary:
+ *    This serves as a wrapper class which calls run() for all other test class
+ ************************************************************************/
+
+
 #include "test.h"
 #include "testPosition.h"
 #include "testVelocity.h"

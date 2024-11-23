@@ -1,3 +1,13 @@
+/***********************************************************************
+ * Source File:
+ *    TEST SPUTNIK
+ * Author:
+ *    Chris Mijango & Seth Chen
+ * Summary:
+ *    A friend class for Satellite which contains the Satellite unit tests
+ ************************************************************************/
+
+
 #pragma once
 
 #include "starlink.h"

@@ -1,3 +1,13 @@
+/***********************************************************************
+ * Header File:
+ *    TEST Hubble
+ * Author:
+ *    Chris Mijango & Seth Chen
+ * Summary:
+ *    All the unit tests for Hubble
+ ************************************************************************/
+
+
 #pragma once
 
 #include "hubble.h"
